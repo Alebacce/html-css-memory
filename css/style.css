@@ -38,15 +38,55 @@ h1 {
         height: 200px;
         display: inline-block;
         margin: 10px;
-
+        padding: 40px;
+        position: relative;
+        
         background-color: white;
         border-radius: 10px;
-
         background-image: url("../img/pattern.png");
         background-size: contain;
     }
 
-    .pattern {
+    .uncover {
+        background-image: none;
+    }
 
+    .uncover .card-figure {
+        display: block;
+    }
+
+    .uncover .uncover-name {
+        display: block;
+    }
+
+    .card-figure {  
+        width: 100%;
+        display: none;
+    }
+
+    .card:hover img {
+        display: block;
+    }
+
+    .card-name {
+        position: absolute;
+        font-size: 30px;
+        bottom: 4%;
+        right: 25%;
+        display: none;
+    }
+
+    .card:hover .card-name {
+        display: block;
     }
 /* END MAIN */
+
+/* FOOTER */
+footer {
+    margin-top: 25px;
+    margin-bottom: 60px;
+
+    text-align: center;
+    font-size: 20px;
+}
+/* END FOOTER */
