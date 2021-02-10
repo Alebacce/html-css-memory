@@ -97,6 +97,18 @@ h1 {
     .green {
         color: green;
     }
+
+    /* BONUS (TEXT COLOR HOVER) */
+    .blue:hover,
+    .orange:hover,
+    .fuchsia:hover,
+    .brown:hover,
+    .red:hover,
+    .green:hover {
+        color: purple;
+        text-shadow: 1px 1px black;
+    }
+
 /* END MAIN */
 
 /* FOOTER */
