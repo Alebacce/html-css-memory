@@ -51,11 +51,7 @@ h1 {
         background-image: none;
     }
 
-    .uncover .card-figure {
-        display: block;
-    }
-
-    .uncover .uncover-name {
+    .uncover .card-figure, .uncover .uncover-name {
         display: block;
     }
 
@@ -67,7 +63,7 @@ h1 {
     .card:hover{
         background-image: none;
     }
-    
+
     .card:hover img {
         display: block;
     }
