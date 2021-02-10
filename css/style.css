@@ -79,6 +79,26 @@ h1 {
     .card:hover .card-name {
         display: block;
     }
+
+    /* TEXT COLOR */
+    .blue {
+        color: blue;
+    }
+    .orange {
+        color: orange;
+    }
+    .fucsia {
+        color: fuchsia;
+    }
+    .brown {
+        color: brown;
+    }
+    .red {
+        color: red;
+    }
+    .green {
+        color: green;
+    }
 /* END MAIN */
 
 /* FOOTER */
