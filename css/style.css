@@ -71,8 +71,9 @@ h1 {
     .card-name {
         position: absolute;
         font-size: 30px;
+        width: 100%;
         bottom: 4%;
-        right: 25%;
+        right: 0%;
         display: none;
     }
 
