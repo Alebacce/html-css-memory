@@ -64,6 +64,10 @@ h1 {
         display: none;
     }
 
+    .card:hover{
+        background-image: none;
+    }
+    
     .card:hover img {
         display: block;
     }
